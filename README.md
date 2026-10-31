@@ -1,11 +1,11 @@
 <div align="center">
 
-<img src="assets/banner.gif" alt="JIS SHAJAN — Software Engineer & Data Science" width="100%" />
+<img src="assets/banner.gif" alt="JIS SHAJAN — Full-Stack Architect & Data Science" width="100%" />
 
-[![Live Portfolio](https://img.shields.io/badge/Portfolio-jis--shajan--portfolio.vercel.app-00F5A0?style=for-the-badge&logo=vercel&logoColor=black)](https://jis-shajan-portfolio.vercel.app)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-jis--shajan-00D2FF?style=for-the-badge&logo=linkedin&logoColor=black)](https://www.linkedin.com/in/jis-shajan)
-[![Email](https://img.shields.io/badge/Email-jisshajan1%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jisshajan1@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-jisssz-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jisssz)
+[![Live Portfolio](https://img.shields.io/badge/Portfolio-jis--shajan--portfolio.vercel.app-FF5A1F?style=for-the-badge&logo=vercel&logoColor=white)](https://jis-shajan-portfolio.vercel.app)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-jis--shajan-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jis-shajan)
+[![Email](https://img.shields.io/badge/Email-jisshajan1%40gmail.com-E84212?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jisshajan1@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-jisssz-120B08?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jisssz)
 
 <p align="center">
   <strong>Computer Science & Engineering (Data Science)</strong> • <strong>Full-Stack Architect</strong> • <strong>Applied AI Builder</strong><br />
@@ -16,11 +16,11 @@
 
 ---
 
-## ⚡ Executive Summary
+## ⚡ Engineering Philosophy & Executive Summary
 
-I am a Software Engineer and Data Science student specializing in building resilient full-stack platforms, client-side offline intelligence, and autonomous financial workflows. My focus is on **software correctness**, **deterministic domain rules**, and **clean UX**. 
+I am a Software Engineer and Data Science student specializing in building resilient full-stack platforms, client-side offline intelligence, and deterministic financial systems. My core engineering tenets are **mathematical correctness**, **zero data ambiguity**, and **cinematic, intentional UX**.
 
-Whether implementing integer-paise billing engines with zero double-billing guarantees, engineering client-side OCR in Web Workers for statutory regulatory compliance, or automating luxury content marketing pipelines, I design systems that solve real operational bottlenecks.
+Whether engineering integer-paise recurring billing engines with database-enforced zero double-billing guarantees, architecting client-side privacy-first Web Worker OCR pipelines for statutory regulatory compliance, or orchestrating automated multi-agent content pipelines, I design systems that solve complex operational bottlenecks cleanly.
 
 ---
 
@@ -33,12 +33,12 @@ Whether implementing integer-paise billing engines with zero double-billing guar
 - **The Problem:** Subscription-based SaaS companies face severe revenue leakage: manual invoicing errors, missed renewal dates, untracked overdue payments, and double billing disputes caused by spreadsheet-driven workflows.
 - **The Solution:** A unified, production-grade recurring revenue management platform managing the complete customer-to-cash lifecycle: dynamic product/plan catalogs, quotations, automated batch billing, GST compliance, partial payment reconciliation, and 30-60-90 day forward-looking predictive cash forecasting.
 - **Engineering Highlights:**
-  - **Zero Double-Billing Guarantee:** Database-level `UniqueConstraint(subscription, period_start)` preventing any duplicate invoice creation across billing cycles.
-  - **Financial Precision:** Integer-paise database storage (100 paise = ₹1.00) avoiding IEEE 754 floating-point inaccuracies.
+  - **Zero Double-Billing Guarantee:** Database-level `UniqueConstraint(subscription, period_start)` preventing duplicate invoice generation across billing cycles.
+  - **Financial Precision:** Integer-paise database storage (100 paise = ₹1.00) eliminating IEEE 754 floating-point rounding inaccuracies.
   - **Predictive Cash Forecasting:** Mathematically rigorous 30-60-90 day projection engine separating Contractual Expected Billings from Expected Cash Collections using historical collection efficiency factors.
   - **SubSync AI Revenue Intelligence Copilot (`Ctrl+J`):** Rule-based conversational copilot analyzing live REST ledger data for instant revenue leakage audits and margin analysis.
   - **Instant Bharat UPI Dynamic QR:** Pure JavaScript Galois Field $GF(2^8)$ QR synthesizer (`qr.js`) generating standard NPCI vector deep links (`upi://pay?...`) with instant settlement writes to backend.
-  - **Interactive Time Travel Sandbox:** Temporal simulation engine executing batch billing runs up to +90 days.
+  - **Interactive Time Travel Sandbox:** Temporal simulation engine executing batch billing runs up to +90 days into the future.
 - **Verified Evidence:** **15 / 15 automated backend tests** passing (100%), **8 / 8 live E2E lifecycle stages** verified, 0 console errors.
 - **Tech Stack:** `Python` • `Django REST Framework` • `React 18` • `Vite` • `PostgreSQL / SQLite` • `Tailwind CSS` • `Recharts`
 
@@ -185,10 +185,10 @@ To showcase maximum engineering depth and diversity on your GitHub profile:
 
 ### 📫 Connect & Collaborate
 
-[![Portfolio](https://img.shields.io/badge/Personal_Portfolio-jis--shajan--portfolio.vercel.app-00F5A0?style=flat-square&logo=vercel&logoColor=black)](https://jis-shajan-portfolio.vercel.app)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-jis--shajan-00D2FF?style=flat-square&logo=linkedin&logoColor=black)](https://www.linkedin.com/in/jis-shajan)
-[![Email](https://img.shields.io/badge/Email-jisshajan1%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:jisshajan1@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-jisssz-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/jisssz)
+[![Portfolio](https://img.shields.io/badge/Personal_Portfolio-jis--shajan--portfolio.vercel.app-FF5A1F?style=flat-square&logo=vercel&logoColor=white)](https://jis-shajan-portfolio.vercel.app)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-jis--shajan-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jis-shajan)
+[![Email](https://img.shields.io/badge/Email-jisshajan1%40gmail.com-E84212?style=flat-square&logo=gmail&logoColor=white)](mailto:jisshajan1@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-jisssz-120B08?style=flat-square&logo=github&logoColor=white)](https://github.com/jisssz)
 
 <br />
 
