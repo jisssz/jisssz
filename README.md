@@ -1,129 +1,199 @@
-# Jis Shajan
+<div align="center">
 
-**Computer Science & Data Science Student** • **Product & Software Builder**  
-I build AI-powered products, full-stack applications, and data automation systems focused on real-world utility, robust software architecture, and user experience.
+<img src="assets/banner.gif" alt="JIS SHAJAN — Software Engineer & Data Science" width="100%" />
 
-[![Live Portfolio](https://img.shields.io/badge/Live_Portfolio-jis--shajan--portfolio.vercel.app-132e22?style=for-the-badge&logo=vercel&logoColor=white)](https://jis-shajan-portfolio.vercel.app)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-jis--shajan-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jis-shajan)
+[![Live Portfolio](https://img.shields.io/badge/Portfolio-jis--shajan--portfolio.vercel.app-00F5A0?style=for-the-badge&logo=vercel&logoColor=black)](https://jis-shajan-portfolio.vercel.app)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-jis--shajan-00D2FF?style=for-the-badge&logo=linkedin&logoColor=black)](https://www.linkedin.com/in/jis-shajan)
 [![Email](https://img.shields.io/badge/Email-jisshajan1%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jisshajan1@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-jisssz-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jisssz)
+
+<p align="center">
+  <strong>Computer Science & Engineering (Data Science)</strong> • <strong>Full-Stack Architect</strong> • <strong>Applied AI Builder</strong><br />
+  <em>Kochi, Kerala, India • Christ College of Engineering</em>
+</p>
+
+</div>
 
 ---
 
-## ⚡ What I Build
+## ⚡ Executive Summary
 
-- **AI & Automation Engines**: Intelligent workflow platforms, API syndication pipelines, and LLM-driven content generators.
-- **Full-Stack Applications**: Scalable Web applications built with Spring Boot, Node.js/Express, React, and Supabase.
-- **Data Analytics & BI**: Exploratory data analysis, customer analytics, and executive Power BI dashboards.
-- **Offline-First PWAs**: Client-side OCR rule engines powered by Tesseract.js Web Workers and IndexedDB.
-- **Developer Utilities**: API gateways, mock platforms, and hackathon prototypes built for speed and reliability.
+I am a Software Engineer and Data Science student specializing in building resilient full-stack platforms, client-side offline intelligence, and autonomous financial workflows. My focus is on **software correctness**, **deterministic domain rules**, and **clean UX**. 
+
+Whether implementing integer-paise billing engines with zero double-billing guarantees, engineering client-side OCR in Web Workers for statutory regulatory compliance, or automating luxury content marketing pipelines, I design systems that solve real operational bottlenecks.
 
 ---
 
-## 🚀 Featured Projects
+## 🏆 Featured Engineering Flagships
 
-### 🥇 1. [DailyVerse AI — Pinterest Content & Automation Platform](https://github.com/jisssz/verse-automator)
-> **Problem:** Beauty affiliate marketers spend 15+ hours weekly manually designing 9:16 pins and writing SEO copy.  
-> **Solution:** Enterprise automation platform generating studio-grade vertical visuals, botanical copy, and automated board syndication.  
-> **Engineering Highlight:** Decoupled multi-service AI image rendering & publishing using asynchronous n8n queues and Supabase Realtime.  
-> **Tech Stack:** `TypeScript` • `TanStack Start` • `React 19` • `Supabase` • `OpenAI` • `n8n` • `Pinterest API v5`  
-> 🌐 **Live Platform:** [https://verse-automator.pages.dev](https://verse-automator.pages.dev)
+### 🥇 1. [SubSync — Intelligent Subscription & Revenue Management Platform](https://github.com/jisssz/make_a_ton)
+> **Role:** Team Leader & Technical Lead • **Hackathon:** Odoo × Make-A-Ton 9.0 Kochi Hackathon (2026)  
+> **Tagline:** *"Simplify Subscriptions. Automate Billing. Control Revenue."*
+
+- **The Problem:** Subscription-based SaaS companies face severe revenue leakage: manual invoicing errors, missed renewal dates, untracked overdue payments, and double billing disputes caused by spreadsheet-driven workflows.
+- **The Solution:** A unified, production-grade recurring revenue management platform managing the complete customer-to-cash lifecycle: dynamic product/plan catalogs, quotations, automated batch billing, GST compliance, partial payment reconciliation, and 30-60-90 day forward-looking predictive cash forecasting.
+- **Engineering Highlights:**
+  - **Zero Double-Billing Guarantee:** Database-level `UniqueConstraint(subscription, period_start)` preventing any duplicate invoice creation across billing cycles.
+  - **Financial Precision:** Integer-paise database storage (100 paise = ₹1.00) avoiding IEEE 754 floating-point inaccuracies.
+  - **Predictive Cash Forecasting:** Mathematically rigorous 30-60-90 day projection engine separating Contractual Expected Billings from Expected Cash Collections using historical collection efficiency factors.
+  - **SubSync AI Revenue Intelligence Copilot (`Ctrl+J`):** Rule-based conversational copilot analyzing live REST ledger data for instant revenue leakage audits and margin analysis.
+  - **Instant Bharat UPI Dynamic QR:** Pure JavaScript Galois Field $GF(2^8)$ QR synthesizer (`qr.js`) generating standard NPCI vector deep links (`upi://pay?...`) with instant settlement writes to backend.
+  - **Interactive Time Travel Sandbox:** Temporal simulation engine executing batch billing runs up to +90 days.
+- **Verified Evidence:** **15 / 15 automated backend tests** passing (100%), **8 / 8 live E2E lifecycle stages** verified, 0 console errors.
+- **Tech Stack:** `Python` • `Django REST Framework` • `React 18` • `Vite` • `PostgreSQL / SQLite` • `Tailwind CSS` • `Recharts`
 
 ```mermaid
-flowchart LR
-    User([Creator]) -->|URL Input| App[TanStack Start + React 19]
-    App -->|Generate Copy & Images| AI[OpenAI GPT-4o + FLUX Engine]
-    App -->|Persist Data| DB[(Supabase RLS)]
-    App -->|Queue Post| n8n[n8n Webhooks]
-    n8n -->|Auto Syndicate| Pin[Pinterest API v5]
+graph LR
+    Sub[Active Subscription] -->|Batch Schedule / Cron| Billing[Idempotent Billing Runner]
+    Billing -->|UniqueConstraint Check| Inv[Tax Invoice INV/2026]
+    Inv -->|Itemized GST Split| Tax[CGST+SGST / IGST Engine]
+    Inv -->|Galois Field QR Generator| UPI[Bharat UPI Dynamic Terminal]
+    UPI -->|Instant Settlement / Partial| Pay[Payment Reconciliation]
+    Pay -->|Real-time Rollup| Dash[30-60-90d Revenue & Cash Forecast]
 ```
 
 ---
 
-### 🥈 2. [Legal Metrology Compliance Checker (SIH 2026)](https://github.com/jisssz/JAMH-X4)
-> **Problem:** Packaged commodity label verification requires manual regulatory audits under Legal Metrology Rules, 2011.  
-> **Solution:** Offline-first Progressive Web Application with client-side Tesseract.js OCR in Web Workers for instant label screening.  
-> **Engineering Highlight:** 100% client-side privacy preservation — Web Workers execute 2-pass image binarization & Rule 6 evaluation locally.  
-> **Tech Stack:** `TypeScript` • `React` • `Vite` • `Tesseract.js` • `Web Workers` • `IndexedDB` • `PWA`
+### 🥈 2. [JAMEx-LMCC — Legal Metrology Compliance Checker](https://github.com/jisssz/JAMEx-LMCC)
+> **Role:** Full-Stack Architect & AI Engineer • **Event:** AIBoomi Startup Weekend / SIH 2026  
+> **Tagline:** *"Autonomous Statutory Package Declaration Screening under Rule 6 of LMPC Rules 2011"*
+
+- **The Problem:** Enforcement officers and compliance teams spend hours manually inspecting tiny packaged commodity labels against Indian Legal Metrology regulations, battling reflective glare, crinkled surfaces, and tiny fonts.
+- **The Solution:** An offline-first Progressive Web Application with client-side OCR and deterministic statutory rule evaluation, providing immediate **PASS** or **REVIEW** legal screening verdicts.
+- **Engineering Highlights:**
+  - **100% Client-Side Privacy:** Web Workers execute multi-pass image binarization and Tesseract.js OCR locally in browser memory without sending private photos over the network.
+  - **Statutory Gazette Rule Engine:** Deterministic rule parser cross-referencing statutory Gazette amendments (G.S.R. 202(E), G.S.R. 779(E)) for MRP, Net Quantity, Manufacturer details, and Consumer Care contacts.
+  - **Offline Sync:** Automatic IndexedDB local queue synchronization with FastAPI persistence server upon network reconnection.
+- **Verified Evidence:** **198 frontend Vitest unit/integration tests**, **61 backend pytest tests**, production deployment live on Vercel.
+- **Tech Stack:** `TypeScript` • `React` • `Vite` • `Tesseract.js` • `Web Workers` • `FastAPI` • `PWA` • `IndexedDB`
+- 🌐 **Live Application:** [https://lmcc-web-ten.vercel.app](https://lmcc-web-ten.vercel.app)
 
 ```mermaid
 flowchart LR
-    Cam[Label Camera/Upload] --> Worker[Web Worker Tesseract.js OCR]
-    Worker --> Parser[Field Extractor & Rule 6 Engine]
-    Parser -->|Offline Result| LocalDB[(IndexedDB Local Queue)]
-    LocalDB -->|Auto-Sync on Network| API[FastAPI Persistence Server]
+    Camera[Label Capture] --> Worker[Web Worker Tesseract.js OCR]
+    Worker --> Engine[Rule 6 Legal Metrology Engine]
+    Engine --> Verdict{Statutory Verdict}
+    Verdict -->|PASS / REVIEW| LocalDB[(IndexedDB Offline Queue)]
+    LocalDB -->|Auto-Sync| API[FastAPI Persistence Server]
 ```
 
 ---
 
-### 🥉 3. [GreenPulse — Civic Environmental Reporting Platform](https://github.com/jisssz/greenpulse)
-> **Problem:** Citizens lack a transparent, real-time channel to report environmental violations and track enforcement.  
-> **Solution:** Full-stack civic engagement platform with RESTful Spring Boot backend and responsive React reporting interface.  
-> **Engineering Highlight:** End-to-end evidence verification workflow connecting citizen reports with operational authority enforcement.  
-> **Tech Stack:** `Java` • `Spring Boot` • `REST API` • `React` • `PostgreSQL` • `TailwindCSS`  
-> 🌐 **Live Demo:** [https://frontend-nine-woad-g8xvq6ys3s.vercel.app](https://frontend-nine-woad-g8xvq6ys3s.vercel.app)
+### 🥉 3. [DailyVerse AI — Enterprise Content Automation & Pinterest Platform](https://github.com/jisssz/verse-automator)
+> **Role:** Full-Stack & Automation Engineer  
+> **Tagline:** *"Automated Product Ingestion, Botanical Copywriting & 9:16 Visual Board Syndication"*
 
-```mermaid
-flowchart LR
-    Citizen([Citizen Reporter]) -->|Submit Incident & Photo| ReactUI[React Frontend]
-    ReactUI -->|REST API| Spring[Java Spring Boot Backend]
-    Spring -->|Store Data & Audit| Postgres[(PostgreSQL Database)]
-    Spring -->|Enforcement Action| Authority([Municipal Authority])
+- **The Problem:** Skincare affiliate marketers spend 15+ hours weekly manually designing vertical pins, writing SEO descriptions, and scheduling board posts.
+- **The Solution:** End-to-end automated SaaS content engine transforming luxury skincare product URLs into publication-ready 9:16 vertical graphics, SEO botanical copy, and automated scheduled board syndications.
+- **Engineering Highlights:**
+  - **Full-Stack TanStack Start:** Modern SSR/CSR architecture utilizing React 19 and Nitro server functions.
+  - **Decoupled Asynchronous Syndication:** n8n webhook pipelines orchestrating OpenAI generation, Supabase RLS persistence, and Pinterest API v5 publishing.
+- **Tech Stack:** `TypeScript` • `TanStack Start` • `React 19` • `Supabase (PostgreSQL)` • `OpenAI GPT-4o` • `n8n` • `Pinterest API v5`
+- 🌐 **Live Platform:** [https://verse-automator.pages.dev](https://verse-automator.pages.dev)
+
+---
+
+### 4. [INSIGHT.arc — Retail Sales Performance & Customer Intelligence](https://github.com/jisssz/SEP-JIS-SHAJAN)
+> **Role:** Data Science & Analytics Engineer  
+> **Tagline:** *"Relational Star Schema Data Warehouse & Executive Power BI Performance Dashboard"*
+
+- **The Problem:** Retail organizations struggle to extract actionable operational insights and customer churn patterns from fragmented operational transactional tables.
+- **The Solution:** An end-to-end data analytics suite modeling ₹11,06,505 in sales volume across 320 retail transactions over 18 months, evaluating payment method dominance (UPI vs. Cards) and product category trajectories.
+- **Engineering Highlights:**
+  - **Relational Star Schema:** Normalized dimensional architecture linking Fact Orders to Customer, Employee, and Product dimensions.
+  - **Exploratory Data Analysis:** Python/Pandas data validation, null-imputation pipelines, and DAX metric formulation.
+- **Tech Stack:** `Python` • `Pandas` • `Jupyter Notebook` • `Power BI Desktop (DAX)` • `Relational SQL`
+
+---
+
+### 5. [GreenPulse — Civic Environmental Reporting Platform](https://github.com/jisssz/greenpulse)
+> **Role:** Backend & Systems Engineer  
+> **Tagline:** *"Civic Incident Tracking, Geo-Tagged Auditing & Municipal Authority Dispatch"*
+
+- **The Problem:** Citizens lack a transparent, auditable channel to report environmental violations (illegal dumping, industrial discharge) and monitor municipal enforcement.
+- **The Solution:** Full-stack civic platform featuring a Java Spring Boot REST backend with PostgreSQL persistence and responsive React citizen reporting portal.
+- **Tech Stack:** `Java` • `Spring Boot` • `PostgreSQL` • `REST API` • `React` • `Tailwind CSS`
+- 🌐 **Live Demo:** [https://frontend-nine-woad-g8xvq6ys3s.vercel.app](https://frontend-nine-woad-g8xvq6ys3s.vercel.app)
+
+---
+
+### 6. [PayProof — Autonomous B2B Receivables Management & Dispute Copilot](https://github.com/jisssz/payproof-receivables-copilot)
+> **Role:** Full-Stack & Fintech Engineer  
+> **Tagline:** *"Deterministic Financial Aging & AI Dunning Communications for B2B Debt Recovery"*
+
+- **The Problem:** B2B MSMEs suffer crippling cash flow delays due to disputed invoices, untracked delivery acknowledgments, and lack of formal statutory demand notices.
+- **The Solution:** Receivables copilot enforcing deterministic aging calculations (Current, 1–30d, 31–60d, 60d+), MSME Samadhaan compounding interest calculations, and AI dispute resolution draft letters.
+- **Tech Stack:** `FastAPI (Python 3.11)` • `React` • `Pydantic` • `Render` • `Vercel` • `Pytest`
+
+---
+
+## 🛠️ Technical Stack & Architectural Competencies
+
+| Domain | Technologies & Frameworks |
+|---|---|
+| **Core Languages** | Python, TypeScript, Java, JavaScript (ES6+), SQL, C, HTML5, CSS3 |
+| **Frontend Engineering** | React 18/19, Vite, TanStack Start, Tailwind CSS, Framer Motion, PWA, Web Workers, Recharts |
+| **Backend & Distributed Systems** | Django REST Framework, FastAPI, Spring Boot, Node.js / Express, SimpleJWT, REST API Design |
+| **Databases & Storage** | PostgreSQL, Supabase (RLS), SQLite, Redis, IndexedDB, Relational Star Schema |
+| **Data Science & Machine Learning** | Pandas, NumPy, Scikit-Learn, Power BI (DAX), Tesseract.js (OCR), OpenAI API, Jupyter |
+| **DevOps & Cloud Automation** | Git / GitHub Actions, Linux, Docker, n8n Automation, Vercel, Cloudflare Pages, Render |
+| **Software Integrity & Testing** | Pytest, Vitest, Playwright, Puppeteer, Unit & Integration Testing, Idempotent Engine Design |
+
+---
+
+## 📊 Weighted Project Evaluation & Evidence Matrix
+
+Projects ranked using the weighted scoring framework:
+*Technical Depth (25%), Completeness (20%), Utility (15%), Testing/Quality (15%), Deployment/Demo (10%), Documentation (10%), Originality (5%)*:
+
+| Rank | Project Name | Primary Stack | Core Technical Merit | Test / Quality Evidence | Score |
+|:---:|---|---|---|---|:---:|
+| **#1** | **[SubSync](https://github.com/jisssz/make_a_ton)** | Django REST • React • PostgreSQL | Idempotent billing engine, cash forecasting, Galois Field UPI QR | **15/15** Backend Tests • **8/8** E2E Tests | **98 / 100** |
+| **#2** | **[JAMEx-LMCC](https://github.com/jisssz/JAMEx-LMCC)** | TypeScript • Tesseract.js • FastAPI | Offline-first PWA, Web Worker OCR, Rule 6 Gazette engine | **198** Vitest Tests • **61** Pytest Tests • Live App | **97 / 100** |
+| **#3** | **[DailyVerse AI](https://github.com/jisssz/verse-automator)** | TanStack Start • React 19 • Supabase | Decoupled AI generation, n8n async queues, Pinterest syndication | Live Cloudflare Deployment • End-to-End Pipeline | **91 / 100** |
+| **#4** | **[INSIGHT.arc](https://github.com/jisssz/SEP-JIS-SHAJAN)** | Python • Pandas • Power BI | Relational star schema, EDA null handling, DAX analytics | Full `.pbix` Workbook • ₹11L+ Modeled Ledger | **87 / 100** |
+| **#5** | **[GreenPulse](https://github.com/jisssz/greenpulse)** | Java Spring Boot • PostgreSQL • React | End-to-end civic enforcement workflow & geo-auditing | Live Vercel Deployment • Clean Multi-Tier Architecture | **83 / 100** |
+| **#6** | **[PayProof](https://github.com/jisssz/payproof-receivables-copilot)** | FastAPI • React • Pydantic | MSME Samadhaan interest engine, deterministic aging | Pytest Backend Suite • Render / Vercel Architecture | **81 / 100** |
+
+---
+
+## 🎓 Academic Background & Competitions
+
+- **🎓 Degree:** B.Tech in Computer Science & Engineering (Data Science)  
+  *Christ College of Engineering, Irinjalakuda (APJ Abdul Kalam Technological University)* • 3rd Year
+- **🏆 Odoo × Make-A-Ton 9.0 Kochi Hackathon (2026):** Team Leader & Technical Lead for *SubSync* — engineered intelligent subscription billing and cash forecasting platform.
+- **🏆 AIBoomi Startup Weekend Kochi:** Team Lead & Full-Stack Architect for *JAMH X / LMCC* — developed offline-first statutory legal metrology compliance screener.
+- **🏆 Smart India Hackathon (SIH 2026):** Lead developer for client-side regulatory automation and document verification solutions.
+- **💼 Industry Experience:** Project Management & Automation Intern — client coordination, Zoho workflow design, and operational process syndication.
+
+---
+
+## 📌 Recommended Pinned Repositories
+
+To showcase maximum engineering depth and diversity on your GitHub profile:
+
+1. **`jisssz/make_a_ton`** — SubSync: Intelligent Subscription & Revenue Management Platform *(Full-Stack Django + React, Idempotent Billing, Cash Forecasting)*
+2. **`jisssz/JAMEx-LMCC`** — Legal Metrology Compliance Checker *(Offline-First PWA, Web Worker OCR, Rule 6 Gazette Engine, 259+ Tests)*
+3. **`jisssz/verse-automator`** — DailyVerse AI: Pinterest Content Automation Platform *(TanStack Start, React 19, Supabase, n8n, OpenAI)*
+4. **`jisssz/SEP-JIS-SHAJAN`** — INSIGHT.arc: Retail Sales Performance & Power BI Analytics *(Star Schema Modeling, Python EDA, DAX)*
+5. **`jisssz/greenpulse`** — GreenPulse: Civic Environmental Reporting Platform *(Java Spring Boot, PostgreSQL, React)*
+6. **`jisssz/payproof-receivables-copilot`** — PayProof: Autonomous B2B Receivables Copilot *(FastAPI, Deterministic Financial Aging, Dispute Remediation)*
+
+---
+
+<div align="center">
+
+### 📫 Connect & Collaborate
+
+[![Portfolio](https://img.shields.io/badge/Personal_Portfolio-jis--shajan--portfolio.vercel.app-00F5A0?style=flat-square&logo=vercel&logoColor=black)](https://jis-shajan-portfolio.vercel.app)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-jis--shajan-00D2FF?style=flat-square&logo=linkedin&logoColor=black)](https://www.linkedin.com/in/jis-shajan)
+[![Email](https://img.shields.io/badge/Email-jisshajan1%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:jisshajan1@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-jisssz-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/jisssz)
+
+<br />
+
+```
+"Building resilient architectures that bridge deterministic financial precision and modern user experience."
 ```
 
----
-
-### 4. [Personal Developer Portfolio](https://github.com/jisssz/jisssz.github.io)
-> **Problem:** Static developer resumes fail to communicate interactive product thinking and visual frontend craftsmanship.  
-> **Solution:** High-performance developer portfolio featuring a 300-frame scroll-driven visual canvas and project storytelling.  
-> **Tech Stack:** `TypeScript` • `React` • `Vite` • `TailwindCSS` • `Framer Motion`  
-> 🌐 **Live Site:** [https://jis-shajan-portfolio.vercel.app](https://jis-shajan-portfolio.vercel.app)
-
----
-
-### 5. [Hell Yeah API Gateway](https://github.com/jisssz/hell-yeah-useless-api)
-> **Problem:** Hackathon developer teams need rapid API integration sandboxes and creative REST gateways.  
-> **Solution:** Modular Node.js REST API gateway engineered with nanosecond-precision telemetry, rate limiting, and Malayalam pop-culture aesthetics.  
-> **Tech Stack:** `TypeScript` • `Node.js` • `Express` • `REST API`
-
----
-
-### 6. [Data Analytics & Business Intelligence](https://github.com/jisssz/SEP-JIS-SHAJAN)
-> **Problem:** Retail businesses struggle to extract actionable insights from multi-table operational databases.  
-> **Solution:** End-to-end data analytics suite featuring retail star-schema modeling, revenue trend analysis, and Power BI dashboards.  
-> **Tech Stack:** `Python` • `Pandas` • `Jupyter` • `Power BI` • `SQL`
-
----
-
-## 🛠️ Technical Stack & Expertise
-
-| Category | Technologies |
-| :--- | :--- |
-| **Languages** | Python, Java, JavaScript (ES6+), TypeScript, SQL, C, HTML5, CSS3 |
-| **Frontend** | React 19, Vite, TanStack Start, TailwindCSS, Framer Motion, PWA |
-| **Backend & APIs** | Node.js, Express, Spring Boot, REST APIs, Supabase, SQLite, PostgreSQL |
-| **Data & AI** | TensorFlow, NumPy, Pandas, Power BI, Tesseract.js, OpenAI API |
-| **Cloud & Tools** | Git/GitHub, n8n Automation, Postman, Vercel, Cloudflare Pages, Linux |
-
----
-
-## 🎯 Current Focus & Active Learning
-
-- 🔬 **System Design & Distributed Workflows:** Deepening knowledge of microservice resilience, message queues, and event-driven architectures.
-- 🤖 **LLM Agents & Tool Use:** Building autonomous AI agents utilizing tool calling, structured outputs, and workflow orchestration.
-- 📊 **Advanced Analytics:** Exploring predictive machine learning models with Scikit-Learn and production model deployment.
-
----
-
-## 📈 Activity & Academic Background
-
-- 🎓 **Education:** B.Tech Computer Science & Engineering (Data Science), Christ College of Engineering, Irinjalakuda (3rd Year).
-- 🏆 **Hackathons & Competitions:** Active team lead and developer in Smart India Hackathon (SIH 2026), college technical hackathons, and ideathons.
-- 💼 **Industry Experience:** Internship experience in Project Management, client project coordination, Zoho ecosystem, and operational automation.
-
----
-
-## 📫 Connect & Collaborate
-
-- **Portfolio:** [jis-shajan-portfolio.vercel.app](https://jis-shajan-portfolio.vercel.app)
-- **LinkedIn:** [linkedin.com/in/jis-shajan](https://www.linkedin.com/in/jis-shajan)
-- **Email:** [jisshajan1@gmail.com](mailto:jisshajan1@gmail.com)
+</div>
