@@ -1,15 +1,20 @@
 <div align="center">
 
-<img src="assets/banner.gif" alt="JIS SHAJAN — Technical Product Management & Engineering" width="100%" />
+<img src="assets/banner.gif" alt="JIS SHAJAN — Technical Product Management & Engineering Systems" width="100%" />
 
-[![Live Portfolio](https://img.shields.io/badge/Portfolio-jis--shajan--portfolio.vercel.app-FF5A1F?style=for-the-badge&logo=vercel&logoColor=white)](https://jis-shajan-portfolio.vercel.app)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-jis--shajan-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jis-shajan)
-[![Email](https://img.shields.io/badge/Email-jisshajan1%40gmail.com-E84212?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jisshajan1@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-jisssz-120B08?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jisssz)
+<br />
+<br />
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-Live_Platform-FF5500?style=for-the-badge&logo=vercel&logoColor=white)](https://jis-shajan-portfolio.vercel.app)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jis-shajan)
+[![Email](https://img.shields.io/badge/Email-Direct-E84212?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jisshajan1@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-120B08?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jisssz)
+<br />
+[![LeetCode](https://img.shields.io/badge/LeetCode-Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/bMFExkNlUl/)
 
 <p align="center">
-  <strong>CSE — Data Science Undergraduate</strong> • <strong>Technical Product Management Aspirant</strong> • <strong>Systems Builder</strong><br />
-  <em>Christ College of Engineering, APJ Abdul Kalam Technological University • Kochi, Kerala, India</em>
+  <strong>Computer Science & Engineering (Data Science) Undergraduate</strong> • <strong>Technical Product Management Aspirant</strong> • <strong>Systems Builder</strong><br />
+  <em>Christ College of Engineering (APJ Abdul Kalam Technological University) • Kerala, India</em>
 </p>
 
 </div>
@@ -161,10 +166,11 @@ flowchart LR
 
 ### 📫 Connect & Collaborate
 
-[![Portfolio](https://img.shields.io/badge/Personal_Portfolio-jis--shajan--portfolio.vercel.app-FF5A1F?style=flat-square&logo=vercel&logoColor=white)](https://jis-shajan-portfolio.vercel.app)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-jis--shajan-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jis-shajan)
-[![Email](https://img.shields.io/badge/Email-jisshajan1%40gmail.com-E84212?style=flat-square&logo=gmail&logoColor=white)](mailto:jisshajan1@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-jisssz-120B08?style=flat-square&logo=github&logoColor=white)](https://github.com/jisssz)
+[![Portfolio](https://img.shields.io/badge/Personal_Portfolio-Live_Platform-FF5500?style=flat-square&logo=vercel&logoColor=white)](https://jis-shajan-portfolio.vercel.app)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jis-shajan)
+[![Email](https://img.shields.io/badge/Email-Direct-E84212?style=flat-square&logo=gmail&logoColor=white)](mailto:jisshajan1@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-120B08?style=flat-square&logo=github&logoColor=white)](https://github.com/jisssz)
+[![LeetCode](https://img.shields.io/badge/LeetCode-Profile-FFA116?style=flat-square&logo=leetcode&logoColor=black)](https://leetcode.com/u/bMFExkNlUl/)
 
 <br />
 
